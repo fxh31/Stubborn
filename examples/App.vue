@@ -1,37 +1,25 @@
 <template>
   <div id="app">
     <!-- 简单用法 -->
-    <s-card :width='500'
-      :height='200'
-      class="text">
-      nihaohodosaofdo
+    <s-card :width='300'
+      :height='100'
+      class="item"
+      summary="我是内容概述">
     </s-card>
-    <br />
     <!-- 带图片 -->
-    <s-card imgSrc="logo.png"
-      summary='hello world'
-      :height="200">
-      <template v-slot:footer>
-        <div class="footer">
-          <div class="level">初级</div>
-          <div class="price">1</div>
-        </div>
-      </template>
-    </s-card>
     <br />
-    <s-card imgSrc="logo.png"
-      :width='380'>
-      nihaohodosaofdo
+    <s-card imgSrc="keji.jpg"
+      :width='300'
+      summary="fdiusobdiabfib">
       <template v-slot:footer>
         <div class="footer">
-          <div class="level">初级</div>
-          <div class="price">2</div>
+          我是底部内容
         </div>
       </template>
     </s-card>
     <br />
     <!-- 基础用法：包括header，summary和footer部分 -->
-    <s-card>
+    <s-card :width='300'>
       <template v-slot:header>
         <span>卡片标题</span>
       </template>
@@ -80,18 +68,8 @@ export default {
   text-align: left;
   color: #9199a1;
 }
-
-.level {
-  color: #9199a1;
-  margin-bottom: 8px;
-}
-
-.price {
-  color: #f01414;
-}
-.text .s-card-summary {
-  font-size: 40px;
-  margin-top: 20px;
+.item .s-card-summary {
+  font-size: 16px;
   text-align: center;
 }
 .item {
