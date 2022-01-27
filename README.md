@@ -1,24 +1,19 @@
-# stubborn-ui
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+# Stubborn-ui组件库
+### 快速开始
+#### 1.安装组件库
+```bash
+npm i stubborn-ui
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#### 2.引用组件库
+```javascript
+// 全部引入
+import 'stubborn-ui/dist/css/index.css';
+import StuUI from 'stubborn-ui';
+Vue.use(StuUI);
 
-### Lints and fixes files
+// 按需引入
+import 'stubborn-ui/dist/css/demo.css';
+import { Demo } from 'stubborn-ui';
+Vue.use(Demo);
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
