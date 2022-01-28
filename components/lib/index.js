@@ -1,9 +1,7 @@
 // 定义全局引入组件文件
-import Demo from "./demo";
 import Card from "./card";
 
 const components = {
-  Demo,
   Card
 };
 

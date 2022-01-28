@@ -13,7 +13,7 @@ import StuUI from 'stubborn-ui';
 Vue.use(StuUI);
 
 // 按需引入
-import 'stubborn-ui/dist/css/demo.css';
-import { Demo } from 'stubborn-ui';
-Vue.use(Demo);
+import 'stubborn-ui/dist/css/card.css';
+import { Card } from 'stubborn-ui';
+Vue.use(Card);
 ```
