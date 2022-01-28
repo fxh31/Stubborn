@@ -8,9 +8,9 @@
     </s-card>
     <!-- 带图片 -->
     <br />
-    <s-card imgSrc="keji.jpg"
+    <s-card imgSrc="beihaigongyuan.jpg"
       :width='300'
-      summary="fdiusobdiabfib">
+      summary="感恩与你第一次相遇">
       <template v-slot:footer>
         <div class="footer">
           我是底部内容
