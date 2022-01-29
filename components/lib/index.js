@@ -1,8 +1,10 @@
 // 定义全局引入组件文件
 import Card from "./card";
+import Button from "./button";
 
 const components = {
-  Card
+  Card,
+  Button
 };
 
 const install = function (Vue) {

@@ -1,39 +1,15 @@
 <template>
   <div id="app">
-    <!-- 简单用法 -->
-    <s-card :width='300'
-      :height='100'
-      class="item"
-      summary="我是内容概述">
-    </s-card>
-    <!-- 带图片 -->
-    <br />
-    <s-card imgSrc="beihaigongyuan.jpg"
-      :width='300'
-      summary="感恩与你第一次相遇">
-      <template v-slot:footer>
-        <div class="footer">
-          我是底部内容
-        </div>
-      </template>
-    </s-card>
-    <br />
-    <!-- 基础用法：包括header，summary和footer部分 -->
-    <s-card :width='300'>
-      <template v-slot:header>
-        <span>卡片标题</span>
-      </template>
-      <div v-for="o in 4"
-        :key="o"
-        class="text item">
-        {{'我是内容概要 ' + o }}
-      </div>
-      <template v-slot:footer>
-        <div class="footer">
-          我是底部内容
-        </div>
-      </template>
-    </s-card>
+    <s-card>卡片</s-card>
+    <s-button>默认按钮</s-button>
+    <s-button type="primary">主要按钮</s-button>
+    <s-button type="success">成功按钮</s-button>
+    <s-button type="info">信息按钮</s-button>
+    <s-button type="warning">警告按钮</s-button>
+    <s-button type="danger"
+      round>危险按钮</s-button>
+    <s-button round>危险按钮</s-button>
+    <s-button circle></s-button>
   </div>
 </template>
 
@@ -46,27 +22,10 @@ export default {
   },
   data() {
     return {
-      content: 'sfsaidfbudoafuidsabufbdsabufalwb'
     }
   }
 }
 </script>
 
 <style scope>
-.footer {
-  padding: 0 8px;
-  font-size: 12px;
-  text-align: left;
-  color: #9199a1;
-}
-.item .s-card-summary {
-  font-size: 16px;
-  text-align: center;
-}
-.item {
-  padding: 10px 0;
-}
-.text {
-  font-size: 14px;
-}
 </style>

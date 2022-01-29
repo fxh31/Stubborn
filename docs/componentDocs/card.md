@@ -1,7 +1,7 @@
 # Card 卡片
 将信息聚合在卡片区域内显示。
 
-## 简单卡片
+### 简单卡片
 卡片区域只有内容可以展示  
 <div>
   <s-card :width='300'
@@ -31,7 +31,7 @@
 
 > 注：summary中内容也可以直接编辑在`<s-card></s-card>`中，效果是一样的；同时写的时候优先展示summary中的内容，组件模块中书写的内容将被忽略
 
-## 基础用法
+### 基础用法
 卡片区域包括header，summary和footer部分。
 <div>
   <s-card >
@@ -87,12 +87,12 @@
 ```
 </details>
 
-## 带图片
+### 带图片
 可配置更丰富的视觉体验卡片。 
 <div>
 <s-card imgSrc="https://img2.baidu.com/it/u=1668268502,3611494796&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500"
       :width='300' 
-      summary="与你第一次相遇">
+      summary="启：与你第一次相遇">
       <template v-slot:footer>
         <div class="footer">
           我是底部内容
@@ -131,7 +131,7 @@ width | 卡片宽度 | Number | false | 270
 height | 卡片高度 | Number | false | 被内容撑开
 imgSrc | 图片资源 | String | false | /
 imgHeight | 图片高度 | Number | false | 152
-summary | 内容概要 | Stirng | false | /
+summary | 内容概要 | String | false | /
 
 <style scope>
 .footer {
