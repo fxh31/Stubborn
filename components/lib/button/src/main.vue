@@ -2,9 +2,11 @@
   <button :type="type"
     :class="[
     type ? 's-button-' + type:'',
+    size? 's-button-' + size: '',
     {
         'is-round': round,
-        'is-circle': circle
+        'is-circle': circle,
+        'is-disabled': disabled
       }
     ]">
     <span v-if="$slots.default">
@@ -21,9 +23,13 @@ export default {
       type: String,
       default: 'default'
     },
+    size: {
+      type: String
+    },
     trans: Boolean,
     round: Boolean,
     circle: Boolean,
+    disabled: Boolean
 
   }
 }
