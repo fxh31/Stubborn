@@ -9,12 +9,13 @@
     <s-button type="danger"
       round>危险按钮</s-button>
     <s-button round>危险按钮</s-button>
-    <s-button circle></s-button>
+    <s-button class=" s-icon-search"
+      circle></s-button>
+    <i class="s-icon-search"></i>
   </div>
 </template>
 
 <script>
-
 
 export default {
   name: 'App',

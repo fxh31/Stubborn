@@ -7,6 +7,7 @@ import '../components/css/index.scss';
 // import '../components/css/button.scss';
 import Button from '../components/lib/button';
 import Card from '../components/lib/card/index';
+import '../examples/assets/fonts/iconfont.css';
 
 // 注册组件
 // Vue.component('name', Demo) 正确引入组件的方法
