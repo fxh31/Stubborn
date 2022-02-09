@@ -21,6 +21,7 @@
 .item .s-card-summary {
   font-size: 16px;
   text-align: center;
+  
 }
 .item {
   padding: 10px 0;
