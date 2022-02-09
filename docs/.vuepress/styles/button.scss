@@ -1,0 +1,193 @@
+.s-button {
+  &-default {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #e1e3e7;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #6f7174;
+    transition: .2s;
+  
+    &:hover {
+      background: #f0f9eb;
+      border-color: #8cc269;
+      color: #96c24e;
+    }
+    &.is-disabled {
+      opacity: .5;
+      background: #f0f9eb;
+      border: 1px solid #e1e3e7;
+      color: #6f7174;
+      &:hover {
+       cursor: not-allowed;
+      }
+    }
+  }
+  
+  &-primary {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background: #1772b4;// 群青
+    border: 1px solid #e1e3e7;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #fff;
+    transition: .2s;
+
+    &:hover {
+      background: #91b3cf;
+      color: #fff;
+    }
+    &.is-disabled {
+      opacity: .5;
+      background: #1772b4;
+      &:hover {
+       cursor: not-allowed;
+      }
+     }
+  }
+  
+  &-success {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background: #41ae3c;// 宝石绿
+    border: 1px solid #e1e3e7;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #fff;
+    transition: .2s;
+
+    &:hover {
+      background: #b9dec9;
+      color: #fff;
+    }
+    &.is-disabled {
+      opacity: .5;
+      background: #41ae3c;
+      &:hover {
+       cursor: not-allowed;
+      }
+    }
+  }
+
+  &-info {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background: #9fa39a;// 镍灰
+    border: 1px solid #e1e3e7;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #fff;
+    transition: .2s;
+
+    &:hover {
+      background: #cad3c3;
+      color: #fff;
+    }
+    &.is-disabled {
+      opacity: .5;
+      background: #9fa39a;
+      &:hover {
+       cursor: not-allowed;
+      }
+    }
+  }
+
+  &-warning {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background: #e2c027;// 姜黄色
+    border: 1px solid #e1e3e7;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #fff;
+    transition: .2s;
+
+    &:hover {
+      background: #f8d86a;
+      color: #fff;
+    }
+    &.is-disabled {
+      opacity: .5;
+      background: #e2c027;
+      &:hover {
+       cursor: not-allowed;
+      }
+    }
+  }
+
+  &-danger {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background: #ee3f4d;// 茶花红
+    border: 1px solid #e1e3e7;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #fff;
+    transition: .2s;
+
+    &:hover {
+      background: #f1939c;
+      color: #fff;
+    }
+    &.is-disabled {
+      opacity: .5;
+      background: #ee3f4d;
+      &:hover {
+       cursor: not-allowed;
+      }
+    }
+  }
+
+  &-text {
+    color: #96c24e;
+    border-color: transparent;
+    background: transparent;
+    padding-left: 0;
+    padding-right: 0;
+    &:hover {
+      cursor: pointer;
+      opacity: .7;
+    }
+    &.is-disabled {
+      color: #9fa39a;
+      opacity: 1;
+      &:hover {
+       cursor: not-allowed;
+      }
+    }
+  }
+
+  &-large {
+    width: 120px;
+    height: 46px;
+  }
+  &-medium {
+    width: 90px;
+    height: 38px;
+  }
+  &-small {
+    width: 83px;
+    height: 34px;
+  }
+}
+.is-round {
+  border-radius: 20px ;
+}
+.is-circle {
+  width: 40px;
+  border-radius: 100% !important;
+}
+
+
+
+  
+  
+
