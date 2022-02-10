@@ -91,6 +91,75 @@
 
 > 注：使用`disabled`属性来判断按钮是否禁用，它接收一个`Boolean`。
 
+### 文字按钮
+没有边框和背景颜色的按钮。
+
+<div class="text-btn">
+  <s-button type="text">主要按钮</s-button>
+  <s-button type="text"
+      disabled >主要按钮</s-button>
+</div>
+
+<details>
+<summary>查看源码</summary>
+
+```vue
+<div>
+  <s-button type="text">主要按钮</s-button>
+  <s-button type="text" disabled >主要按钮</s-button>
+</div>
+```
+</details>
+
+### 不同尺寸
+Button按钮提供除了默认值的其他三种尺寸，来满足对大小场景的需求。
+
+<div class="text-btn">
+  <div class="item">
+      <s-button size="large">大型按钮</s-button>
+      <s-button>默认按钮</s-button>
+      <s-button size="medium">中型按钮</s-button>
+      <s-button size="small">小型按钮</s-button>
+  </div>
+  <div>
+      <s-button size="large" round>大型按钮</s-button>
+      <s-button round>默认按钮</s-button>
+      <s-button size="medium" round>中型按钮</s-button>
+      <s-button size="small" round>小型按钮</s-button>
+  </div>
+</div>
+
+<details>
+<summary>查看源码</summary>
+
+```vue
+  <div>
+    <s-button size="large">大型按钮</s-button>
+    <s-button>默认按钮</s-button>
+    <s-button size="medium">中型按钮</s-button>
+    <s-button size="small">小型按钮</s-button>
+  </div>
+  <div>
+    <s-button size="large" round>大型按钮<s-button>
+    <s-button round>默认按钮</s-button>
+    <s-button size="medium" round>中型按钮<s-button>
+    <s-button size="small" round>小型按钮<s-button>
+  </div>
+
+```
+</details>
+
+> 通过`size`属性来配置尺寸，额外的值有`small` , `medium` , `large` 。
+
+### Attributes
+ 参数 | 说明 |类型|可选值|默认值|
+---|---|---|---|---|
+size | 尺寸 | String | small/medium/large | —
+type | 类型 | String | primary/success/warning/danger/info/text | -
+round | 是否是圆角按钮 | Boolean | - | false
+circle | 是否是圆形按钮 | Boolean | - | false
+disabled | 是否禁用状态 | Boolean | - | false
+
 <style scope>
   
 /* .box {
@@ -99,6 +168,9 @@
   -bottom: 5px;
 } */
 .item {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+.text-btn {
+  margin-bottom: 15px;
 }
 </style>
