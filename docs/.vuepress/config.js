@@ -4,6 +4,7 @@ module.exports = {
       '/',
       '/componentDocs/card',
       '/componentDocs/button',
+      '/componentDocs/link',
     ]
   }
 }

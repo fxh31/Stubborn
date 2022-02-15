@@ -12,11 +12,13 @@
     <s-link type="info"
       underline>saf</s-link>
     <s-link type="warning"
-      disabled>saf</s-link>
-    <s-link type="danger"
+      href="https://element.eleme.cn/#/zh-CN/component/link">saf</s-link>
+    <s-link href="#"
+      type="danger"
       expired>saf</s-link>
-    <s-link type="danger"
-      disabled>你好年后</s-link>
+    <s-link :underline="false"
+      href="https://element.eleme.cn/#/zh-CN/component/link">你好年后</s-link>
+
   </div>
 </template>
 
