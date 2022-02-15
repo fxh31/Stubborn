@@ -2,23 +2,27 @@
   &-default {
     color: #0f1423;
     font-size: 15px;
+    text-decoration: none;
     &:hover {
       color: #96c24e;
       cursor: pointer;
-      &.is-disabled {
-        color: #a1a3a7;
-        &:hover {
-         cursor: not-allowed;
-         text-decoration: none;
-        }
+      text-decoration: underline;
+    }
+    &.is-disabled {
+      color: #a1a3a7;
+      &:hover {
+       cursor: not-allowed;
+       text-decoration: none;
       }
     }
   }
   &-primary {
     color: #1772b4;
+    text-decoration: none;
     &:hover {
       color: #91b3cf;
       cursor: pointer;
+      text-decoration: underline;
     }
     &.is-disabled {
       color: #91b3cf;
@@ -30,9 +34,11 @@
   }
   &-success {
     color: #41ae3c;
+    text-decoration: none;
     &:hover {
       color: #b9dec9;
       cursor: pointer;
+      text-decoration: underline;
     }
     &.is-disabled {
       color: #b9dec9;
@@ -44,9 +50,11 @@
   }
   &-info {
     color: #9fa39a;
+    text-decoration: none;
     &:hover {
       color: #cad3c3;
       cursor: pointer;
+      text-decoration: underline;
     }
     &.is-disabled {
       color: #cad3c3;
@@ -58,9 +66,11 @@
   }
   &-warning {
     color: #e2c027;
+    text-decoration: none;
     &:hover {
       color: #f8d86a;
       cursor: pointer;
+      text-decoration: underline;
     }
     &.is-disabled {
       color: #f8d86a;
@@ -72,9 +82,11 @@
   }
   &-danger {
     color: #ee3f4d;
+    text-decoration: none;
     &:hover {
       color: #f1939c;
       cursor: pointer;
+      text-decoration: underline;
     }
     &.is-disabled {
       color: #f1939c;
@@ -86,9 +98,9 @@
   }
 }
 .is-underline {
-  text-decoration:none !important;
+  text-decoration:none;
   &:hover {
-    text-decoration:none;
+    text-decoration:none ;
   }
 }
 .is-expired {

@@ -4,12 +4,12 @@
 ### 基础用法
 基础的文字超链接用法。
 <div class="box">
-  <s-link>默认链接</s-link>
-  <s-link type="primary">主要链接</s-link>
-  <s-link type="success">成功链接</s-link>
-  <s-link type="warning">警告链接</s-link>
-  <s-link type="danger">危险链接</s-link>
-  <s-link type="info">信息链接</s-link>
+  <s-link href="#">默认链接</s-link>
+  <s-link href="#" type="primary">主要链接</s-link>
+  <s-link href="#" type="success">成功链接</s-link>
+  <s-link href="#" type="warning">警告链接</s-link>
+  <s-link href="#" type="danger">危险链接</s-link>
+  <s-link href="#" type="info">信息链接</s-link>
 </div>
 
 <details>
@@ -17,12 +17,12 @@
 
 ```vue
 <div>
-  <s-link >默认链接</s-link>
-  <s-link type="primary">主要链接</s-link>
-  <s-link type="success">成功链接</s-link>
-  <s-link type="warning">警告链接</s-link>
-  <s-link type="danger">危险链接</s-link>
-  <s-link type="info">信息链接</s-link>
+  <s-link href="#">默认链接</s-link>
+  <s-link href="#" type="primary">主要链接</s-link>
+  <s-link href="#" type="success">成功链接</s-link>
+  <s-link href="#" type="warning">警告链接</s-link>
+  <s-link href="#" type="danger">危险链接</s-link>
+  <s-link href="#" type="info">信息链接</s-link>
 </div>
 ```
 </details> 
@@ -31,7 +31,7 @@
 文字链接下划线。 
 
 <div class='box1'>
-  <s-link href="#" :underline="false">无下划线</s-link>
+  <s-link href="#" class="noline" :underline="false">无下划线</s-link>
   <s-link href="#">有下划线</s-link>
 </div>
 
@@ -40,21 +40,21 @@
 
 ```vue
 <div>
-  <s-link>无下划线</s-link>
-  <s-link underline>有下划线</s-link>
+ <s-link href="#" :underline="false">无下划线</s-link>
+<s-link href="#">有下划线</s-link>
 </div>
 ```
 </details>
 
-> 通过`underline`属性来添加下划线
+> 通过`underline`属性来设置下划线。
 
 ### 禁用状态
 文字链接不可用。
 
 <div class="box1">
-  <s-link class='jinyong' disabled>默认链接</s-link>
-  <s-link class='line' type="primary" disabled>主要链接</s-link>
-  <s-link class='line' type="success" disabled>成功链接</s-link>
+  <s-link href="#" disabled>默认链接</s-link>
+  <s-link class='line' href="#" type="primary" disabled>主要链接</s-link>
+  <s-link href="#" class='line' type="success" disabled>成功链接</s-link>
   <s-link class='line' type="warning" disabled>警告链接</s-link>
   <s-link class='line' type="danger" disabled>危险链接</s-link>
   <s-link class='line' type="info" disabled>信息链接</s-link>
@@ -65,12 +65,12 @@
 
 ```vue
 <div>
-  <s-link disabled>默认链接</s-link>
-  <s-link type="primary" disabled>主要链接</s-link>
-  <s-link type="success" disabled>成功链接</s-link>
-  <s-link type="warning" disabled>警告链接</s-link>
-  <s-link type="danger" disabled>危险链接</s-link>
-  <s-link type="info" disabled>信息链接</s-link>
+  <s-link href="#" disabled>默认链接</s-link>
+  <s-link href="#" type="primary" disabled>主要链接</s-link>
+  <s-link href="#" type="success" disabled>成功链接</s-link>
+  <s-link href="#" type="warning" disabled>警告链接</s-link>
+  <s-link href="#" type="danger" disabled>危险链接</s-link>
+  <s-link href="#" type="info" disabled>信息链接</s-link>
 </div>
 ```
 </details>
@@ -117,11 +117,14 @@ href | 原生href属性 | String | - | -
   .box1 {
     margin-bottom: 15px;
   }
-  .jinyong {
+  /* .jinyong {
     color: #cad3c3 !important;
     text-decoration:none !important;
   }
   .exp {
     text-decoration: line-through !important;
+  } */
+  .noline {
+    text-decoration:none !important;
   }
 </style>
