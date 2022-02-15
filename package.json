@@ -1,6 +1,6 @@
 {
   "name": "stubborn-ui",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "stubborn-ui演示组件库",
   "main": "dist/index.umd.js",
   "keywords": [

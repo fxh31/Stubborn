@@ -41,7 +41,7 @@
 ```vue
 <div>
  <s-link href="#" :underline="false">无下划线</s-link>
-<s-link href="#">有下划线</s-link>
+ <s-link href="#">有下划线</s-link>
 </div>
 ```
 </details>
@@ -52,12 +52,12 @@
 文字链接不可用。
 
 <div class="box1">
-  <s-link href="#" disabled>默认链接</s-link>
-  <s-link class='line' href="#" type="primary" disabled>主要链接</s-link>
-  <s-link href="#" class='line' type="success" disabled>成功链接</s-link>
-  <s-link class='line' type="warning" disabled>警告链接</s-link>
-  <s-link class='line' type="danger" disabled>危险链接</s-link>
-  <s-link class='line' type="info" disabled>信息链接</s-link>
+  <s-link href="#" class="noline"  disabled>默认链接</s-link>
+  <s-link href="#" class="noline" type="primary" disabled>主要链接</s-link>
+  <s-link href="#" class="noline" type="success" disabled>成功链接</s-link>
+  <s-link href="#" class="noline" type="warning" disabled>警告链接</s-link>
+  <s-link href="#" class="noline" type="danger" disabled>危险链接</s-link>
+  <s-link href="#" class="noline" type="info" disabled>信息链接</s-link>
 </div>
 
 <details>
@@ -91,12 +91,12 @@
 
 ```vue
 <div>
-  <s-link expired>默认链接</s-link>
-  <s-link type="primary" expired>主要链接</s-link>
-  <s-link type="success" expired>成功链接</s-link>
-  <s-link type="warning" expired>警告链接</s-link>
-  <s-link type="danger" expired>危险链接</s-link>
-  <s-link type="info" expired>信息链接</s-link>
+  <s-link href="#" expired>默认链接</s-link>
+  <s-link href="#" type="primary" expired>主要链接</s-link>
+  <s-link href="#" type="success" expired>成功链接</s-link>
+  <s-link href="#" type="warning" expired>警告链接</s-link>
+  <s-link href="#" type="danger" expired>危险链接</s-link>
+  <s-link href="#" type="info" expired>信息链接</s-link>
 </div>
 ```
 </details>
