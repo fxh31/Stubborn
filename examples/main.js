@@ -8,6 +8,7 @@ import '../components/css/index.scss';
 import Button from '../components/lib/button';
 import Card from '../components/lib/card/index';
 import Link from '../components/lib/link';
+import Radio from '../components/lib/radio';
 import './assets/icon/iconfont.css';
 
 // 注册组件
@@ -15,6 +16,7 @@ import './assets/icon/iconfont.css';
 Vue.use(Card);// Demo.install -> Vue.component()
 Vue.use(Button);
 Vue.use(Link)
+Vue.use(Radio)
 
 
 Vue.config.productionTip = false

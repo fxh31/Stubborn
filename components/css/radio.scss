@@ -1,0 +1,107 @@
+// .s-radio {
+ 
+//   cursor: pointer;
+  
+//   height: 25px;
+//   line-height: 25px;
+//   // input[type = "radio" i] {
+//   //   opacity: 0;
+//   // }
+// }
+// .s-radio-input {
+//   input[type="radio" i] {
+//     background-color: #96c24e;
+//     cursor: default;
+//     appearance: auto;
+//     box-sizing: border-box;
+//     margin: 3px 3px 0px 5px;
+//     padding: initial;
+//     border: initial;
+//     color: #96c24e;
+// }
+//   // display: none;
+// }
+// .s-radio-input-inner {
+//     width: 15px;
+//     height: 15px;
+//     border-radius: 10px;
+//     border: 1px solid #dcdfe6;
+
+// }
+// .s-radio-label {
+//   display: inline-block;
+//   width: 15px;
+//   height: 15px;
+// }
+// // input[type="radio"] + label::before {
+// //   content: "";
+// //   background: #fff;
+// //   border: 1px solid #dcdfe6;
+// //   width: 15px;
+// //   height: 15px;
+
+// // }
+
+// // .s-radio-box-input {
+// //   .s-radio-input-inner {
+// //     border: 1px solid #dcdfe6;
+// //     background-color: #fff;
+// //     border-radius: 100%;
+// //     width: 14px;
+// //     height: 14px;
+// //     position: relative;
+// //     box-sizing: border-box;
+// //     display: inline-block;
+// //   }
+// //   .s-radio-input {
+// //     // opacity: 0;
+// //     z-index: -1;
+// //   }
+// // }
+.radio {
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  padding-left: 25px;
+  text-align: left;
+  width: 100%;
+  display: flex;
+}
+
+.radio input {
+  position: absolute;
+  left: -9999px;
+}
+
+.radio i {
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 13px;
+  height: 13px;
+  outline: 0;
+  border: 1px solid rgb(133, 133, 133);
+  background: transparent;
+  border-radius: 50%;
+  transition: border-color .3s;
+  -webkit-transition: border-color .3s;
+}
+
+.radio input+i::after {
+  position: absolute;
+  content: '';
+  top: 2px;
+  left: 2px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #ee2e2e !important;
+  opacity: 0;
+  transition: opacity .1s;
+  -webkit-transition: opacity .1s;
+}
+
+.radio input:checked+i:after {
+  opacity: 1;
+}

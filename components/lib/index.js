@@ -2,11 +2,15 @@
 import Card from "./card";
 import Button from "./button";
 import Link from "./link";
+import Radio from "./radio";
+import Input from "./input";
 
 const components = {
   Card,
   Button,
-  Link
+  Link,
+  Radio,
+  Input
 };
 
 const install = function (Vue) {
