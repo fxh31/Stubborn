@@ -1,0 +1,108 @@
+.s-input {
+  position: absolute;
+  width: 140px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #9fa39a;
+  padding: 1px 10px;
+  cursor: pointer;
+  // cubic-bezier() 函数定义了一个贝塞尔曲线(Cubic Bezier)。
+  transition: border-color .2s cubic-bezier(.625,.045,.355,1);
+  &:focus {
+    outline: none;
+    border-color: #96c24e;
+  }
+  &:hover {
+    border-color: #96c24e;
+  }
+
+  &-password {
+    width: 160px;
+  }
+  &-textarea {
+    width: 200px;
+    height: 70px;
+    border-radius: 3px;
+    transition: border-color .2s cubic-bezier(.625,.045,.355,1);
+    color: #15231b;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 10px;
+    &:hover {
+      border-color: #96c24e;
+    }
+    &:focus {
+      outline: none;
+      border-color: #96c24e;
+    }
+  }
+  &-limit {
+    &-count {
+
+    }
+  }
+}
+input[type="text" i] {
+  padding: 3px 10px;
+  color: #15231b;
+}
+input::-webkit-input-placeholder {
+  color: #cad3c3;
+}
+
+.is-disabled {
+  // background-color: #cad3c3;
+  opacity: .7;
+  cursor: not-allowed;
+  &:hover {
+    border-color: #9fa39a;
+  }
+}
+.s-input-box {
+  width: 140px;
+  position: relative;
+  // 纯css验证输入框是否为空显示清除按钮
+  .s-input:valid + .clear-box {
+    transition: .4s cubic-bezier(.625,.045,.355,1);
+    width: 14px;
+    height: 14px;
+    background: #cad3c3;
+    margin-top: 8px;
+    position: absolute;
+    right: -15px;
+    border-radius: 100%;
+    border-width: 0;
+    cursor: pointer;
+    &::after {
+      width: 8px;
+      position: absolute;
+      height: 1.5px;
+      background: #fff;
+      content: "";
+      top: 6.5px;
+      left: 3.5px;
+      transform: rotate(134deg);
+      -ms-transform: rotate(134deg);
+      -moz-transform: rotate(134deg);
+      -webkit-transform: rotate(134deg);
+      -o-transform: rotate(134deg);
+    }
+    &::before {
+      width: 8px;
+      position: absolute;
+      height: 1.5px;
+      background: #fff;
+      content: "";
+      top: 6.5px;
+      left: 3.5px;
+      transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+    }
+    &:hover {
+      background: #9fa39a;
+    }
+  }
+}
