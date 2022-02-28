@@ -10,6 +10,7 @@ import Card from '../components/lib/card/index';
 import Link from '../components/lib/link';
 import Radio from '../components/lib/radio';
 import Input from '../components/lib/input';
+import Checkbox from '../components/lib/checkbox';
 import './assets/icon/iconfont.css';
 
 // 注册组件
@@ -19,6 +20,7 @@ Vue.use(Button);
 Vue.use(Link)
 Vue.use(Radio)
 Vue.use(Input)
+Vue.use(Checkbox)
 
 
 Vue.config.productionTip = false

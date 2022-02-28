@@ -4,13 +4,16 @@ import Button from "./button";
 import Link from "./link";
 import Radio from "./radio";
 import Input from "./input";
+import Checkbox from "./checkbox";
+
 
 const components = {
   Card,
   Button,
   Link,
   Radio,
-  Input
+  Input,
+  Checkbox
 };
 
 const install = function (Vue) {

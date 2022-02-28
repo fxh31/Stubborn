@@ -6,16 +6,11 @@
     <i class="s-icon-search"></i>
     <s-link href="#">默认链接</s-link> -->
     <!-- <s-radio label="ss"></s-radio> -->
-    <s-input v-model="value1"
-      type="password"
-      @blur="test"
-      clear
-      @change="test2"
-      placeholder="请输入内容"></s-input>
-    <!-- <s-input :value="value1"
-      @input="value1 = $event"></s-input> -->
-    <div>内容:{{ value1 }}</div>
-
+    <!-- <s-input v-model="value1"
+      placeholder="请输入内容"></s-input> -->
+    <s-checkbox v-model="value1"
+      label="sdfas">asd</s-checkbox>
+    <!-- <div>{{value1}}</div> -->
   </div>
 </template>
 
@@ -27,24 +22,18 @@ export default {
   },
   data() {
     return {
-      value1: ''
+      value1: '',
+      value2: true
     }
   },
   created() {
     // this.getvalue()
   },
   methods: {
-    test(e) {
-      console.log(1)
+    sad(e) {
       console.log(e)
-    },
-    test2(e) {
-      console.log(e)
-      console.log(2)
-    },
-    test3() {
-      console.log(3)
     }
+
   }
 }
 </script>
