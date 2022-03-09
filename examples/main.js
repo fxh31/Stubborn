@@ -11,6 +11,7 @@ import Link from '../components/lib/link';
 import Radio from '../components/lib/radio';
 import Input from '../components/lib/input';
 import Checkbox from '../components/lib/checkbox';
+import CheckboxGroup from '../components/lib/checkbox-group';
 import './assets/icon/iconfont.css';
 
 // 注册组件
@@ -21,6 +22,7 @@ Vue.use(Link)
 Vue.use(Radio)
 Vue.use(Input)
 Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
 
 
 Vue.config.productionTip = false

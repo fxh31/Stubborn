@@ -8,8 +8,14 @@
     <!-- <s-radio label="ss"></s-radio> -->
     <!-- <s-input v-model="value1"
       placeholder="请输入内容"></s-input> -->
-    <s-checkbox v-model="value1"
-      label="sdfas">asd</s-checkbox>
+    <!-- <s-checkbox v-model="value1"
+      label="sdfas">asd</s-checkbox> -->
+    <s-checkbox-group horizontal
+      :options="data"
+      @change="sad"
+      @click="dd"
+      :width=60>
+    </s-checkbox-group>
     <!-- <div>{{value1}}</div> -->
   </div>
 </template>
@@ -23,16 +29,33 @@ export default {
   data() {
     return {
       value1: '',
-      value2: true
+      value2: true,
+      item1: [],
+      data: [
+        { label: '一', value: 21, name: 'ee', disabled: true },
+        { label: '二', value: 22, name: 'ww', disabledChecked: true },
+        { label: '二', value: 22, name: 'ww', checkedItem: true },
+        { label: '三', value: 24, name: 'ab' },
+
+      ]
     }
   },
   created() {
-    // this.getvalue()
+    // this.sad()
   },
   methods: {
-    sad(e) {
+    sad(data, index) {
+      console.log(data)
+      console.log(index)
+      console.log(1)
+    },
+    dd(e) {
       console.log(e)
+
     }
+
+
+
 
   }
 }

@@ -5,7 +5,7 @@ import Link from "./link";
 import Radio from "./radio";
 import Input from "./input";
 import Checkbox from "./checkbox";
-
+import CheckboxGroup from "./checkbox-group";
 
 const components = {
   Card,
@@ -13,7 +13,8 @@ const components = {
   Link,
   Radio,
   Input,
-  Checkbox
+  Checkbox,
+  CheckboxGroup
 };
 
 const install = function (Vue) {
