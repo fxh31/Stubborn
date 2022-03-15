@@ -9,14 +9,14 @@
     <!-- <s-input v-model="value1"
       placeholder="请输入内容"></s-input> -->
     <!-- <s-checkbox v-model="value1"
-      label="sdfas">asd</s-checkbox> -->
+      label="sdfas"
+      @change="text1">asd</s-checkbox> -->
     <s-checkbox-group horizontal
       :options="data"
+      :width=60
       @change="sad"
-      @click="dd"
-      :width=60>
+      @click="dd">
     </s-checkbox-group>
-    <!-- <div>{{value1}}</div> -->
   </div>
 </template>
 
@@ -32,11 +32,10 @@ export default {
       value2: true,
       item1: [],
       data: [
-        { label: '一', value: 21, name: 'ee', disabled: true },
-        { label: '二', value: 22, name: 'ww', disabledChecked: true },
-        { label: '二', value: 22, name: 'ww', checkedItem: true },
-        { label: '三', value: 24, name: 'ab' },
-
+        { label: '备选项一', value: 21, name: '备选项一', disabled: true },
+        { label: '备选项二', value: 22, name: '备选项二', disabledChecked: true },
+        { label: '备选项三', value: 22, name: '备选项三', checkedItem: true },
+        { label: '备选项四', value: 24, name: '备选项四' },
       ]
     }
   },
@@ -47,11 +46,12 @@ export default {
     sad(data, index) {
       console.log(data)
       console.log(index)
-      console.log(1)
     },
     dd(e) {
       console.log(e)
-
+    },
+    text1(e) {
+      console.log(e);
     }
 
 

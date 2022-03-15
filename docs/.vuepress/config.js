@@ -6,6 +6,8 @@ module.exports = {
       '/componentDocs/button',
       '/componentDocs/link',
       '/componentDocs/input',
+      '/componentDocs/checkbox',
+
     ]
   }
 }
