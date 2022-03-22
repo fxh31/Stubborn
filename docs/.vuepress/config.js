@@ -7,6 +7,7 @@ module.exports = {
       '/componentDocs/link',
       '/componentDocs/input',
       '/componentDocs/checkbox',
+      '/componentDocs/tabs',
 
     ]
   }

@@ -5,18 +5,21 @@
     <s-button>默认按钮</s-button>
     <i class="s-icon-search"></i>
     <s-link href="#">默认链接</s-link> -->
-    <!-- <s-radio label="ss"></s-radio> -->
     <!-- <s-input v-model="value1"
       placeholder="请输入内容"></s-input> -->
     <!-- <s-checkbox v-model="value1"
       label="sdfas"
       @change="text1">asd</s-checkbox> -->
-    <s-checkbox-group horizontal
+    <!-- <s-checkbox-group horizontal
       :options="data"
       :width=60
       @change="sad"
       @click="dd">
-    </s-checkbox-group>
+    </s-checkbox-group> -->
+    <s-tabs :tabsdata="tabsdata"
+      @tabClick="switchItem"
+      :width="width"
+      type="line"></s-tabs>
   </div>
 </template>
 
@@ -30,13 +33,21 @@ export default {
     return {
       value1: '',
       value2: true,
-      item1: [],
-      data: [
-        { label: '备选项一', value: 21, name: '备选项一', disabled: true },
-        { label: '备选项二', value: 22, name: '备选项二', disabledChecked: true },
-        { label: '备选项三', value: 22, name: '备选项三', checkedItem: true },
-        { label: '备选项四', value: 24, name: '备选项四' },
-      ]
+      currentIndex: 0,
+      tabsdata: [
+        {
+          title: '项1',
+          widthItem: 200
+        },
+        {
+          title: '项2'
+        },
+        {
+          title: 3
+        }
+      ],
+      width: 500,
+
     }
   },
   created() {
@@ -52,6 +63,9 @@ export default {
     },
     text1(e) {
       console.log(e);
+    },
+    switchItem() {
+
     }
 
 
