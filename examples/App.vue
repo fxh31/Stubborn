@@ -16,10 +16,19 @@
       @change="sad"
       @click="dd">
     </s-checkbox-group> -->
-    <s-tabs :tabsdata="tabsdata"
+    <!-- <s-tabs :tabsdata="tabsdata"
       @tabClick="switchItem"
       :width="width"
-      type="line"></s-tabs>
+      type="line"></s-tabs> -->
+    <s-tag closable
+      @close="closea"
+      @click="addone"
+      color="#fff"
+      borderColor="red">标签一</s-tag>
+    <s-tag type="primary">标签</s-tag>
+    <s-tag type="info">标签一</s-tag>
+    <s-tag type="warning">标签一</s-tag>
+    <s-tag type="danger">标签一</s-tag>
   </div>
 </template>
 
@@ -66,6 +75,12 @@ export default {
     },
     switchItem() {
 
+    },
+    closea() {
+      console.log(1)
+    },
+    addone() {
+      console.log(2)
     }
 
 

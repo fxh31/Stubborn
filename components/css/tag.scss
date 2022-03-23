@@ -1,0 +1,79 @@
+.s-tag {
+  position: relative;
+  background-color: #f0f5e5;
+  color: #96c24e;
+  cursor: pointer;
+  border: 1px solid #dfecd5;
+  display: inline-block;
+  height: 32px;
+  padding: 0 10px;
+  line-height: 32px;
+  font-size: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  // white-space: nowrap;
+  &-primary {
+    background-color:#d0dfe6;
+    color: #2177b8;
+    border: 1px solid #c3d7df;
+  }
+  &-info {
+    background-color:#f1f0ed;
+    color: #847c74;
+    border: 1px solid #cdd1d3;
+  }
+  &-warning {
+    background-color:#f8e8c1;
+    color: #e8b004;
+    border: 1px solid #f7de98;
+  }
+  &-danger {
+    background-color:#f8ebe6;
+    color: #f25a47;
+    border: 1px solid #f6cec1;
+  }
+  &-close {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    display: inline-block;
+    top: 1px;
+    cursor: pointer;
+    margin-left: 5px;
+    position: relative;
+    &:hover {
+      background-color: #fff;
+      border: 1px solid #cdd1d3;
+      box-sizing: border-box;
+    }
+    &-left {
+      width: 8px;
+      position: absolute;
+      height: 1.5px;
+      background: #cdd1d3;
+      // top: 50%;
+      bottom: 5px;
+      right: 1.5px;
+      transform: rotate(134deg);
+      -ms-transform: rotate(134deg);
+      -moz-transform: rotate(134deg);
+      -webkit-transform: rotate(134deg);
+      -o-transform: rotate(134deg);
+    }
+    &-right {
+      width: 8px;
+      position: absolute;
+      height: 1.5px;
+      background: #cdd1d3;
+      bottom: 5px;
+      right: 1.5px;
+      transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+    }
+
+
+  }
+}
