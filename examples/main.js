@@ -13,6 +13,7 @@ import Checkbox from '../components/lib/checkbox';
 import CheckboxGroup from '../components/lib/checkbox-group';
 import Tabs from '../components/lib/tabs';
 import Tag from '../components/lib/tag';
+import Dialog from '../components/lib/dialog';
 import './assets/icon/iconfont.css';
 
 // 注册组件
@@ -25,6 +26,7 @@ Vue.use(Checkbox)
 Vue.use(CheckboxGroup)
 Vue.use(Tabs)
 Vue.use(Tag)
+Vue.use(Dialog)
 
 
 Vue.config.productionTip = false

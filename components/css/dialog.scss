@@ -1,0 +1,119 @@
+.s-dialog-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  margin: 0;
+  z-index: 99;
+  background-color: rgba(0,0,0,.4);
+}
+.s-dialog{
+  position: relative;
+  margin: 25vh auto 50px;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.3);
+  box-sizing: border-box;
+  width: 30%;
+  // animation: fadeDialog .3s;
+  // @keyframes fadeDialog {
+  //   0% {
+  //     transform: translateY(-5px);
+  //   }
+    
+  //   100% {
+  //     transform: translateY(0);
+  //   }
+  // }
+
+
+  &-header {
+    padding: 20px 20px 10px;
+    
+  }
+  &-title{
+    line-height: 24px;
+    font-size: 18px;
+    color: #333;
+
+  }
+  &-headerbtn{
+    cursor: pointer;
+    &::after {
+      width: 12px;
+      position: absolute;
+      height: 1.5px;
+      top: 30px;
+      background: #9fa39a;
+      content: "";
+      right: 10px;  
+      transform: rotate(134deg);
+      -ms-transform: rotate(134deg);
+      -moz-transform: rotate(134deg);
+      -webkit-transform: rotate(134deg);
+      -o-transform: rotate(134deg);
+    }
+    &::before {
+      width: 12px;
+      position: absolute;
+      height: 1.5px;
+      top: 30px;
+      background: #9fa39a;
+      content: "";
+      right: 10px;    
+      transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+    }
+  }
+  &-body{
+    padding: 30px 20px;
+    color: #909399;
+    font-size: 14p;
+    word-break: break-all;
+  }
+  &-footer{
+    padding: 10px 20px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    .s-button:first-child {
+      margin-right: 10px;
+    }
+  }
+}
+
+// 遮罩层过渡动画
+.s-dialog-fade-enter-active {
+  animation: fade .3s;
+}
+.s-dialog-fade-leave-active {
+  animation: fade .3s reverse;
+}
+.s-dialog-fade-enter-active .s-dialog{
+  animation: fade2 .3s;
+}
+.s-dialog-fade-leave-active .s-dialog{
+  animation: fade2 .3s reverse;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade2 {
+  0% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}

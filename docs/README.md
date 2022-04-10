@@ -1,22 +1,18 @@
-# 快速开始
+---
+home: true
+heroImage: /LOGOY.png
+heroText: stubborn ui
+tagline: 一套基于vue的极简快速开发组件库
+actionText: 快速上手 →
+actionLink: /componentDocs/installation
+features:
+- title: 简洁至上
+  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
+- title: Vue驱动
+  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
+- title: 高性能
+  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+footer: Copyright © 2022 fxh
+---
 
-### 安装组件库
-```bash
-npm i stubborn-ui
-```
-
-### 引用组件库
-> 在main.js中引用组件库
-
-```javascript
-// 全部引入
-import 'stubborn-ui/dist/css/index.css';
-import StuUI from 'stubborn-ui';
-Vue.use(StuUI);
-
-// 按需引入(以Card为例)
-import 'stubborn-ui/dist/css/card.css';
-import { Card } from 'stubborn-ui';
-Vue.use(Card);
-```
 

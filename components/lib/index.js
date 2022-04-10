@@ -7,6 +7,7 @@ import Checkbox from "./checkbox";
 import CheckboxGroup from "./checkbox-group";
 import Tabs from "./tabs";
 import Tag from "./tag";
+import Dialog from "./dialog";
 
 const components = {
   Card,
@@ -16,7 +17,8 @@ const components = {
   Checkbox,
   CheckboxGroup,
   Tabs,
-  Tag
+  Tag,
+  Dialog
 };
 
 const install = function (Vue) {

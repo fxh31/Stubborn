@@ -20,15 +20,34 @@
       @tabClick="switchItem"
       :width="width"
       type="line"></s-tabs> -->
-    <s-tag closable
+    <!-- <s-tag closable
       @close="closea"
       @click="addone"
       color="#fff"
-      borderColor="red">标签一</s-tag>
-    <s-tag type="primary">标签</s-tag>
-    <s-tag type="info">标签一</s-tag>
-    <s-tag type="warning">标签一</s-tag>
-    <s-tag type="danger">标签一</s-tag>
+      borderColor="red">标签一</s-tag> -->
+    <s-button type="primary"
+      size="small"
+      @click="visible = true">显示</s-button>
+    <s-dialog top="200px"
+      :visible.sync="visible"
+      :show-close=true>
+      <ul>
+        <li>aa</li>
+        <li>ab</li>
+      </ul>
+      <template v-slot:footer>
+        <s-button size="small"
+          @click="visible = false">取消</s-button>
+        <s-button size="small"
+          type="primary"
+          @click="visible = false">确定</s-button>
+      </template>
+    </s-dialog>
+    <!-- <s-dialog>
+      <template v-slot:title>
+        <h>woshi</h>
+      </template>
+    </s-dialog> -->
   </div>
 </template>
 
@@ -40,6 +59,7 @@ export default {
   },
   data() {
     return {
+      visible: false,
       value1: '',
       value2: true,
       currentIndex: 0,

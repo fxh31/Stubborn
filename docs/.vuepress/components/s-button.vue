@@ -7,8 +7,9 @@
         'is-round': round,
         'is-circle': circle,
         'is-disabled': disabled
-      }
-    ]">
+      },'s-button'
+    ]"
+    @click="handleClick">
     <span v-if="$slots.default">
       <slot></slot>
     </span>
@@ -30,7 +31,11 @@ export default {
     round: Boolean,
     circle: Boolean,
     disabled: Boolean
-
+  },
+  methods: {
+    handleClick(e) {
+      this.$emit('click', e);
+    }
   }
 }
 </script>
