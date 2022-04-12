@@ -14,7 +14,11 @@ import CheckboxGroup from '../components/lib/checkbox-group';
 import Tabs from '../components/lib/tabs';
 import Tag from '../components/lib/tag';
 import Dialog from '../components/lib/dialog';
+import Switch from '../components/lib/switch';
+import Radio from '../components/lib/radio';
+import RadioGroup from '../components/lib/radio-group';
 import './assets/icon/iconfont.css';
+
 
 // 注册组件
 // Vue.component('name', Demo) 正确引入组件的方法
@@ -27,7 +31,9 @@ Vue.use(CheckboxGroup)
 Vue.use(Tabs)
 Vue.use(Tag)
 Vue.use(Dialog)
-
+Vue.use(Switch)
+Vue.use(Radio)
+Vue.use(RadioGroup)
 
 Vue.config.productionTip = false
 

@@ -8,6 +8,9 @@ import CheckboxGroup from "./checkbox-group";
 import Tabs from "./tabs";
 import Tag from "./tag";
 import Dialog from "./dialog";
+import Switch from "./switch";
+import Radio from "./radio";
+import RadioGroup from "./radio-group";
 
 const components = {
   Card,
@@ -18,7 +21,10 @@ const components = {
   CheckboxGroup,
   Tabs,
   Tag,
-  Dialog
+  Dialog,
+  Switch,
+  Radio,
+  RadioGroup
 };
 
 const install = function (Vue) {

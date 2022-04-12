@@ -39,23 +39,23 @@
   }
 }
 
-.is-checked {
+.s-checkbox-box.is-checked {
   color: #96c24e;
 }
-.is-disabled-null {
+.s-checkbox-box.is-disabled-null {
   &::after {
     border: none !important;
   }
-  background:  #cad3c3 !important;
-  border-color: #cad3c3 !important;
-  cursor: not-allowed !important;
+  background:  #cad3c3 ;
+  border-color: #cad3c3;
+  cursor: not-allowed ;
 }
-.is-disabled {
-  background:  #cad3c3 !important;
-  border-color: #cad3c3 !important;
-  cursor: not-allowed !important;
+.s-checkbox-box.is-disabled {
+  background:  #cad3c3;
+  border-color: #cad3c3;
+  cursor: not-allowed;
 }
-.is-disabled-label {
+.s-checkbox-box.is-disabled-label {
   color: #cad3c3;
   cursor: not-allowed;
 }

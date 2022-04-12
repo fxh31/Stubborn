@@ -25,7 +25,7 @@
       @click="addone"
       color="#fff"
       borderColor="red">标签一</s-tag> -->
-    <s-button type="primary"
+    <!-- <s-button type="primary"
       size="small"
       @click="visible = true">显示</s-button>
     <s-dialog top="200px"
@@ -42,12 +42,27 @@
           type="primary"
           @click="visible = false">确定</s-button>
       </template>
-    </s-dialog>
+    </s-dialog> -->
     <!-- <s-dialog>
       <template v-slot:title>
         <h>woshi</h>
       </template>
     </s-dialog> -->
+    <!-- <s-switch v-model="active"
+      name="username"
+      @change="cahnge1"
+      disabled
+      active-text="按月付费"
+      inactive-text="按年付费"></s-switch> -->
+    <s-radio label="1"
+      v-model="gender">男</s-radio>
+    <s-radio label="0"
+      v-model="gender"
+      @change="dd">女</s-radio>
+    <s-radio-group v-model="gender2">
+      <s-radio label="1">男</s-radio>
+      <s-radio label="0">女</s-radio>
+    </s-radio-group>
   </div>
 </template>
 
@@ -59,6 +74,9 @@ export default {
   },
   data() {
     return {
+      gender: '0',
+      gender2: '1',
+      active: false,
       visible: false,
       value1: '',
       value2: true,
@@ -77,12 +95,16 @@ export default {
       ],
       width: 500,
 
+
     }
   },
   created() {
     // this.sad()
   },
   methods: {
+    cahnge1() {
+      console.log(2)
+    },
     sad(data, index) {
       console.log(data)
       console.log(index)
