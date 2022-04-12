@@ -54,7 +54,7 @@
       disabled
       active-text="按月付费"
       inactive-text="按年付费"></s-switch> -->
-    <s-radio label="1"
+    <!-- <s-radio label="1"
       v-model="gender">男</s-radio>
     <s-radio label="0"
       v-model="gender"
@@ -62,18 +62,53 @@
     <s-radio-group v-model="gender2">
       <s-radio label="1">男</s-radio>
       <s-radio label="0">女</s-radio>
-    </s-radio-group>
+    </s-radio-group> -->
+    <!-- <s-form :model="model"
+      label-width="180px">
+      <s-form-item label="用户名">
+        <s-input placeholder="请输入用户名"
+          v-model="model.username"></s-input>
+      </s-form-item>
+      <s-form-item label="选择">
+        <s-switch v-model="model.active"></s-switch>
+      </s-form-item>
+    </s-form> -->
+    <!-- <s-tree :treeData="treeData"></s-tree> -->
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'App',
   components: {
 
+
   },
   data() {
     return {
+      treeData: {
+        label: "下拉树",
+        children: [
+          {
+            label: "下拉树1",
+            children: [
+              { label: "下拉树1-2" },
+              { label: '下拉树2-2' }
+            ]
+          },
+          {
+            label: '下拉树2'
+          },
+          {
+            label: '下拉树3'
+          }
+        ]
+      },
+      model: {
+        username: '',
+        active: true
+      },
       gender: '0',
       gender2: '1',
       active: false,

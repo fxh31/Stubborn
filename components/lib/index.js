@@ -11,6 +11,9 @@ import Dialog from "./dialog";
 import Switch from "./switch";
 import Radio from "./radio";
 import RadioGroup from "./radio-group";
+import Form from "./form";
+import FormItem from "./form-item";
+import Tree from "./tree";
 
 const components = {
   Card,
@@ -24,7 +27,10 @@ const components = {
   Dialog,
   Switch,
   Radio,
-  RadioGroup
+  RadioGroup,
+  Form,
+  FormItem,
+  Tree
 };
 
 const install = function (Vue) {

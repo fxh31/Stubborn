@@ -17,6 +17,9 @@ import Dialog from '../components/lib/dialog';
 import Switch from '../components/lib/switch';
 import Radio from '../components/lib/radio';
 import RadioGroup from '../components/lib/radio-group';
+import Form from '../components/lib/form';
+import FormItem from '../components/lib/form-item';
+import Tree from '../components/lib/tree';
 import './assets/icon/iconfont.css';
 
 
@@ -34,6 +37,9 @@ Vue.use(Dialog)
 Vue.use(Switch)
 Vue.use(Radio)
 Vue.use(RadioGroup)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Tree)
 
 Vue.config.productionTip = false
 

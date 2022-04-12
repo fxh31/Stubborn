@@ -1,0 +1,65 @@
+.s-tree {
+  padding-left: 20px;
+  padding-top: 5px;
+  transition: all .3s linear;
+  &-content{
+    display: flex;
+    transition: all .1s linear;
+  }
+  &-box{
+    position: relative;
+    width: 15px;
+  }
+  &-ico-open{
+    position: absolute; 
+    top: 5px; 
+    width: 0px;
+    height: 0px;
+    border: 5px solid #cad3c3;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    transition: all .5s linear;
+  }
+  &-ico-close {
+    position: relative;
+    top: 0;
+    width: 0px;
+    height: 0px;
+    border: 5px solid #96c24e;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    transition: all .5s linear;
+  }
+  &-label {
+    font-size: 14px;
+    color: #15231b;
+    cursor: pointer;
+    
+  }
+}
+.s-tree-list-enter-active{
+    animation: fadeList .5s;
+}
+.s-tree-list-leave-active{
+  animation: fadeList2 .5s;
+}
+@keyframes fadeList {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeList2 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

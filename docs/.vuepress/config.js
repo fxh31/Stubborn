@@ -36,6 +36,7 @@ module.exports = {
             '/componentDocs/tag',
             '/componentDocs/dialog',
             '/componentDocs/switch',
+            '/componentDocs/tree',
 
           ],
           collapsable: false
@@ -63,6 +64,7 @@ module.exports = {
             '/componentDocs/tag',
             '/componentDocs/dialog',
             '/componentDocs/switch',
+            '/componentDocs/tree',
 
           ],
           collapsable: false
@@ -90,6 +92,7 @@ module.exports = {
             '/componentDocs/tag',
             '/componentDocs/dialog',
             '/componentDocs/switch',
+            '/componentDocs/tree',
 
           ],
           collapsable: false
@@ -117,6 +120,7 @@ module.exports = {
             '/componentDocs/tag',
             '/componentDocs/dialog',
             '/componentDocs/switch',
+            '/componentDocs/tree',
 
           ],
           collapsable: false
@@ -144,6 +148,7 @@ module.exports = {
             '/componentDocs/tag',
             '/componentDocs/dialog',
             '/componentDocs/switch',
+            '/componentDocs/tree',
 
           ],
           collapsable: false
@@ -171,6 +176,7 @@ module.exports = {
             '/componentDocs/tag',
             '/componentDocs/dialog',
             '/componentDocs/switch',
+            '/componentDocs/tree',
 
           ],
           collapsable: false
@@ -198,6 +204,7 @@ module.exports = {
             '/componentDocs/tag',
             '/componentDocs/dialog',
             '/componentDocs/switch',
+            '/componentDocs/tree',
 
           ],
           collapsable: false
@@ -225,6 +232,7 @@ module.exports = {
             '/componentDocs/tag',
             '/componentDocs/dialog',
             '/componentDocs/switch',
+            '/componentDocs/tree',
 
           ],
           collapsable: false
@@ -252,6 +260,7 @@ module.exports = {
             '/componentDocs/tag',
             '/componentDocs/dialog',
             '/componentDocs/switch',
+            '/componentDocs/tree',
 
           ],
           collapsable: false
@@ -279,6 +288,7 @@ module.exports = {
             '/componentDocs/tag',
             '/componentDocs/dialog',
             '/componentDocs/switch',
+            '/componentDocs/tree',
 
           ],
           collapsable: false
@@ -306,6 +316,7 @@ module.exports = {
             '/componentDocs/tag',
             '/componentDocs/dialog',
             '/componentDocs/switch',
+            '/componentDocs/tree',
 
           ],
           collapsable: false
@@ -333,6 +344,35 @@ module.exports = {
             '/componentDocs/tag',
             '/componentDocs/dialog',
             '/componentDocs/switch',
+            '/componentDocs/tree',
+
+          ],
+          collapsable: false
+        }
+      ],
+      '/componentDocs/tree': [
+        {
+          title: '快速开始',
+          children: [
+            '/componentDocs/installation'
+          ],
+          collapsable: false
+        },
+        {
+          title: '组件',
+          children: [
+            '/componentDocs/color',
+            '/componentDocs/card',
+            '/componentDocs/button',
+            '/componentDocs/link',
+            '/componentDocs/input',
+            '/componentDocs/radio',
+            '/componentDocs/checkbox',
+            '/componentDocs/tabs',
+            '/componentDocs/tag',
+            '/componentDocs/dialog',
+            '/componentDocs/switch',
+            '/componentDocs/tree',
 
           ],
           collapsable: false

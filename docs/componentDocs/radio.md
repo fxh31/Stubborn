@@ -2,7 +2,7 @@
 在一组备选项中进行单选。
 
 ### 基础用法
-<div class="box">
+<div class="box" style="display:flex;">
   <s-radio label="1"
       v-model="radio">备选项一</s-radio>
   <s-radio label="2"
