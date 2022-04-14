@@ -1,0 +1,59 @@
+.s-popover{
+ 
+  position: relative;
+  &-content {
+    position: absolute;
+    border-radius: 4px;
+    background-color: #fff;
+    left: 50%;
+    min-width: 150px;
+    font-size: 14px;
+    color: #15231b;
+    line-height: 1.4;
+    z-index: 99;
+    border: 1px solid  #cad3c3;
+    box-shadow: 0 2px 8px 0 #cad3c3;
+    padding: 16px 18px;
+  }
+  &-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  &-arrow{
+    width: 0;
+    height: 0;
+    border: 6px solid #cad3c3;
+    border-color: #cad3c3 transparent transparent transparent;
+    position: absolute;
+    bottom: -12px;
+
+    left: 50%;
+    margin-left: -6px;
+    &::after {
+      content: '';
+      width: 0;
+      height: 0;
+      border: 6px solid #cad3c3;
+      border-color: #fff transparent transparent transparent;
+      position: absolute;
+      top: -7.5px;
+      left: -6px;
+    }
+  }
+}
+
+.s-popover-fade-enter-active {
+  animation: fadePover .5s;
+}
+.s-popover-fade-leave-active {
+  animation: fadePover .2s reverse;
+}
+
+@keyframes fadePover {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+
 // 引入自己的组件样式
 import '../components/css/index.scss';
 // import '../components/css/card.scss';
@@ -20,6 +21,10 @@ import RadioGroup from '../components/lib/radio-group';
 import Form from '../components/lib/form';
 import FormItem from '../components/lib/form-item';
 import Tree from '../components/lib/tree';
+import PageHeader from '../components/lib/page-header';
+import Breadcrumb from '../components/lib/breadcrumb';
+import BreadcrumbItem from '../components/lib/breadcrumb-item';
+import Popover from '../components/lib/popover';
 import './assets/icon/iconfont.css';
 
 
@@ -40,6 +45,10 @@ Vue.use(RadioGroup)
 Vue.use(Form)
 Vue.use(FormItem)
 Vue.use(Tree)
+Vue.use(PageHeader)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Popover)
 
 Vue.config.productionTip = false
 

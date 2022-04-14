@@ -37,9 +37,16 @@ module.exports = {
             '/componentDocs/dialog',
             '/componentDocs/switch',
             '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
 
           ],
           collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
         }
       ],
       '/componentDocs/color': [
@@ -65,9 +72,16 @@ module.exports = {
             '/componentDocs/dialog',
             '/componentDocs/switch',
             '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
 
           ],
           collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
         }
       ],
       '/componentDocs/card': [
@@ -93,9 +107,16 @@ module.exports = {
             '/componentDocs/dialog',
             '/componentDocs/switch',
             '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
 
           ],
           collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
         }
       ],
       '/componentDocs/button': [
@@ -121,9 +142,16 @@ module.exports = {
             '/componentDocs/dialog',
             '/componentDocs/switch',
             '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
 
           ],
           collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
         }
       ],
       '/componentDocs/link': [
@@ -149,9 +177,16 @@ module.exports = {
             '/componentDocs/dialog',
             '/componentDocs/switch',
             '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
 
           ],
           collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
         }
       ],
       '/componentDocs/input': [
@@ -177,9 +212,16 @@ module.exports = {
             '/componentDocs/dialog',
             '/componentDocs/switch',
             '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
 
           ],
           collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
         }
       ],
       '/componentDocs/checkbox': [
@@ -205,9 +247,16 @@ module.exports = {
             '/componentDocs/dialog',
             '/componentDocs/switch',
             '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
 
           ],
           collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
         }
       ],
       '/componentDocs/tabs': [
@@ -233,9 +282,16 @@ module.exports = {
             '/componentDocs/dialog',
             '/componentDocs/switch',
             '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
 
           ],
           collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
         }
       ],
       '/componentDocs/tag': [
@@ -261,9 +317,16 @@ module.exports = {
             '/componentDocs/dialog',
             '/componentDocs/switch',
             '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
 
           ],
           collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
         }
       ],
       '/componentDocs/dialog': [
@@ -289,9 +352,16 @@ module.exports = {
             '/componentDocs/dialog',
             '/componentDocs/switch',
             '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
 
           ],
           collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
         }
       ],
       '/componentDocs/switch': [
@@ -317,9 +387,16 @@ module.exports = {
             '/componentDocs/dialog',
             '/componentDocs/switch',
             '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
 
           ],
           collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
         }
       ],
       '/componentDocs/radio': [
@@ -345,9 +422,16 @@ module.exports = {
             '/componentDocs/dialog',
             '/componentDocs/switch',
             '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
 
           ],
           collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
         }
       ],
       '/componentDocs/tree': [
@@ -373,9 +457,121 @@ module.exports = {
             '/componentDocs/dialog',
             '/componentDocs/switch',
             '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
 
           ],
           collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
+        }
+      ],
+      '/componentDocs/pageHeader': [
+        {
+          title: '快速开始',
+          children: [
+            '/componentDocs/installation'
+          ],
+          collapsable: false
+        },
+        {
+          title: '组件',
+          children: [
+            '/componentDocs/color',
+            '/componentDocs/card',
+            '/componentDocs/button',
+            '/componentDocs/link',
+            '/componentDocs/input',
+            '/componentDocs/radio',
+            '/componentDocs/checkbox',
+            '/componentDocs/tabs',
+            '/componentDocs/tag',
+            '/componentDocs/dialog',
+            '/componentDocs/switch',
+            '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
+
+          ],
+          collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
+        }
+      ],
+      '/componentDocs/breadcrumb': [
+        {
+          title: '快速开始',
+          children: [
+            '/componentDocs/installation'
+          ],
+          collapsable: false
+        },
+        {
+          title: '组件',
+          children: [
+            '/componentDocs/color',
+            '/componentDocs/card',
+            '/componentDocs/button',
+            '/componentDocs/link',
+            '/componentDocs/input',
+            '/componentDocs/radio',
+            '/componentDocs/checkbox',
+            '/componentDocs/tabs',
+            '/componentDocs/tag',
+            '/componentDocs/dialog',
+            '/componentDocs/switch',
+            '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
+
+          ],
+          collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
+        }
+      ],
+      '/componentDocs/popover': [
+        {
+          title: '快速开始',
+          children: [
+            '/componentDocs/installation'
+          ],
+          collapsable: false
+        },
+        {
+          title: '组件',
+          children: [
+            '/componentDocs/color',
+            '/componentDocs/card',
+            '/componentDocs/button',
+            '/componentDocs/link',
+            '/componentDocs/input',
+            '/componentDocs/radio',
+            '/componentDocs/checkbox',
+            '/componentDocs/tabs',
+            '/componentDocs/tag',
+            '/componentDocs/dialog',
+            '/componentDocs/switch',
+            '/componentDocs/tree',
+            '/componentDocs/pageHeader',
+            '/componentDocs/breadcrumb',
+            '/componentDocs/popover',
+
+          ],
+          collapsable: false
+        },
+        {
+          title: '定制样式',
+          children: []
         }
       ]
     },

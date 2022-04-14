@@ -3,7 +3,7 @@
 
 ### 基础用法
 基础的文字超链接用法。
-<div class="box">
+<div class="boxLink">
   <s-link href="#">默认链接</s-link>
   <s-link href="#" type="primary">主要链接</s-link>
   <s-link href="#" type="success">成功链接</s-link>
@@ -126,5 +126,11 @@ href | 原生href属性 | String | - | -
   } */
   .noline {
     text-decoration:none !important;
+  }
+  .boxLink {
+    display: flex;
+  }
+  .boxLink a{
+    width:68px;
   }
 </style>

@@ -14,6 +14,10 @@ import RadioGroup from "./radio-group";
 import Form from "./form";
 import FormItem from "./form-item";
 import Tree from "./tree";
+import PageHeader from "./page-header";
+import Breadcrumb from "./breadcrumb";
+import BreadcrumbItem from "./breadcrumb-item";
+import Popover from "./popover";
 
 const components = {
   Card,
@@ -30,7 +34,12 @@ const components = {
   RadioGroup,
   Form,
   FormItem,
-  Tree
+  Tree,
+  PageHeader,
+  Breadcrumb,
+  BreadcrumbItem,
+  Popover
+
 };
 
 const install = function (Vue) {

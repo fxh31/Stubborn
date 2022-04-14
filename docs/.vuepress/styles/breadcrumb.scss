@@ -1,0 +1,26 @@
+.s-breadcrumb {
+  .s-breadcrumb-item:last-child{
+    .s-breadcrumb-separator {
+      display: none;
+    }
+  }
+  &-item {
+    
+  }
+  &-inner {
+    font-size: 14px;
+    color: #15231b;
+    &.is-link {
+      cursor: pointer;
+      font-weight: bold;
+    }
+    &.is-link:hover {
+      color:#cad3c3;
+    }
+  
+  }
+  &-separator{
+    margin: 0 8px;
+    font-size: 14px;
+  }
+}

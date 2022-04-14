@@ -3,8 +3,8 @@
 
 ### 基础按钮
 基础的按钮展示。
-<div class="box">
-<div class="item">
+<div class="boxButton" >
+<div class="item" style="display: flex">
   <s-button>默认按钮</s-button>
   <s-button type="primary">主要按钮</s-button>
   <s-button type="success">成功按钮</s-button>
@@ -167,8 +167,15 @@ disabled | 是否禁用状态 | Boolean | - | false
   flex-direction: column;
   -bottom: 5px;
 } */
+.boxButton {
+
+}
 .item {
   margin-bottom: 5px;
+  
+}
+.item>button {
+  margin-right: 5px;
 }
 .text-btn {
   margin-bottom: 15px;

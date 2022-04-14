@@ -4,7 +4,7 @@
 ### 主色
 stubborn主要采用的是清新的绿色。
 
-<div class="box" style="background-color: #96c24e;">
+<div class="boxColor" style="background-color: #96c24e;">
   <div class="title">芽绿</div>
   <div class="content">#96c24e</div>
 </div>
@@ -57,14 +57,14 @@ stubborn主要采用的是清新的绿色。
 
 ### 字体颜色
 组件字体风格颜色。
-<div class="box" style="background-color: #15231b;">
+<div class="boxColor" style="background-color: #15231b;">
   <div class="title">云杉绿</div>
   <div class="content">#15231b</div>
 </div>
 
 
 <style>
-.box {
+.boxColor {
   width: 350px;
   height: 150px;
   border-radius: 2px;

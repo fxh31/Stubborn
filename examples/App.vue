@@ -74,6 +74,20 @@
       </s-form-item>
     </s-form> -->
     <!-- <s-tree :treeData="treeData"></s-tree> -->
+    <!-- <s-paage-header content="详情页面"
+      @back="cahnge1"></s-paage-header> -->
+    <!-- <s-breadcrumb separator=">">
+      <s-breadcrumb-item>a</s-breadcrumb-item>
+      <s-breadcrumb-item :to="{path:'/1'}">b</s-breadcrumb-item>
+    </s-breadcrumb> -->
+    <s-popover trigger="click"
+      :width="100"
+      style="position:relative;top:400px;left:400px"
+      content="内容"
+      title="标题"
+      @after-enter="cahnge1">
+      <s-button slot="reference">click 激活</s-button>
+    </s-popover>
   </div>
 </template>
 

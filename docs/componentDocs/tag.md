@@ -2,7 +2,7 @@
 用于标记和选择。
 
 ### 基础用法
-<div class="box">
+<div class="boxTag" style="display: flex,padding-right: 20px">
   <s-tag>标签一</s-tag>
   <s-tag type="primary">标签二</s-tag>
   <s-tag type="info">标签三</s-tag>
@@ -34,7 +34,7 @@ export default {
 > tag由`type`选择基础的标签类型。想修改标签的颜色和边框可使用`color`和`borderColor`属性，详情参见参数部分。
 
 ### 可移除标签
-<div class="box">
+<div class="boxTag">
   <s-tag closable @close="close">标签一</s-tag>
   <s-tag closable type="primary">标签二</s-tag>
   <s-tag closable type="info">标签三</s-tag>
@@ -91,7 +91,8 @@ export default {
 </script>
 
 <style>
-  .box {
+  .boxTag {
     margin: 20px 0;
+    dispaly:flex;
   }
 </style>
