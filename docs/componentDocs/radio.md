@@ -2,7 +2,7 @@
 在一组备选项中进行单选。
 
 ### 基础用法
-<div class="box" style="display:flex;">
+<div class="boxRa" style="display:flex;">
   <s-radio label="1"
       v-model="radio">备选项一</s-radio>
   <s-radio label="2"
@@ -31,7 +31,7 @@ export default {
 > 要使用 `Radio` 组件，只需要设置`v-model`绑定变量，选中意味着变量的值为相应` Radio label`属性的值，`label`可以是`String`、`Number`或`Boolean`。
 
 ### 禁用状态
-<div class="box">
+<div class="boxRa">
   <s-radio label="1"
       v-model="radio2" disabled>备选项一</s-radio>
   <s-radio label="2"
@@ -61,7 +61,7 @@ export default {
 
 ### 单选框组
 适用于在多个互斥的选项中选择的场景。
-<div class="box">
+<div class="boxRa">
   <s-radio-group v-model='radio3'>
     <s-radio label="1">备选项一</s-radio>
     <s-radio label="2">备选项二</s-radio>
@@ -125,7 +125,7 @@ export default {
 }
 </script>
 <style>
-  .box {
+  .boxRa {
     diplay: flex;
     margin: 20px 0;
   }

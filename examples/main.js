@@ -25,6 +25,7 @@ import PageHeader from '../components/lib/page-header';
 import Breadcrumb from '../components/lib/breadcrumb';
 import BreadcrumbItem from '../components/lib/breadcrumb-item';
 import Popover from '../components/lib/popover';
+import MadeBackground from '../components/lib/made-backgroud';
 import './assets/icon/iconfont.css';
 
 
@@ -49,6 +50,7 @@ Vue.use(PageHeader)
 Vue.use(Breadcrumb)
 Vue.use(BreadcrumbItem)
 Vue.use(Popover)
+Vue.use(MadeBackground)
 
 Vue.config.productionTip = false
 

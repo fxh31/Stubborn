@@ -18,6 +18,7 @@ import PageHeader from "./page-header";
 import Breadcrumb from "./breadcrumb";
 import BreadcrumbItem from "./breadcrumb-item";
 import Popover from "./popover";
+import MadeBackground from "./made-backgroud";
 
 const components = {
   Card,
@@ -38,7 +39,8 @@ const components = {
   PageHeader,
   Breadcrumb,
   BreadcrumbItem,
-  Popover
+  Popover,
+  MadeBackground
 
 };
 

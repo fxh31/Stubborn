@@ -80,14 +80,16 @@
       <s-breadcrumb-item>a</s-breadcrumb-item>
       <s-breadcrumb-item :to="{path:'/1'}">b</s-breadcrumb-item>
     </s-breadcrumb> -->
-    <s-popover trigger="click"
+    <!-- <s-popover trigger="click"
       :width="100"
       style="position:relative;top:400px;left:400px"
       content="内容"
       title="标题"
       @after-enter="cahnge1">
       <s-button slot="reference">click 激活</s-button>
-    </s-popover>
+    </s-popover> -->
+    <s-md :bgData="daat1">
+    </s-md>
   </div>
 </template>
 
@@ -101,6 +103,9 @@ export default {
   },
   data() {
     return {
+      daat1: {
+        r: 255, g: 105, b: 180, r1: 235, g1: 105, b1: 78, r2: 234, g2: 11, b2: 164, r3: 254, g3: 234, b3: 131, r4: 170, g4: 142, b4: 245, r5: 248, g5: 192, b5: 147
+      },
       treeData: {
         label: "下拉树",
         children: [
@@ -143,7 +148,7 @@ export default {
         }
       ],
       width: 500,
-
+      colorTest: 'red'
 
     }
   },
@@ -184,5 +189,9 @@ export default {
 <style scope>
 .box {
   display: flex;
+}
+.a {
+  width: 200px;
+  margin-left: 20px;
 }
 </style>
