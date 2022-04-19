@@ -19,6 +19,7 @@ import Breadcrumb from "./breadcrumb";
 import BreadcrumbItem from "./breadcrumb-item";
 import Popover from "./popover";
 import MadeBackground from "./made-backgroud";
+import MadeBackwords from "./made-backwords";
 
 const components = {
   Card,
@@ -40,7 +41,8 @@ const components = {
   Breadcrumb,
   BreadcrumbItem,
   Popover,
-  MadeBackground
+  MadeBackground,
+  MadeBackwords
 
 };
 

@@ -88,8 +88,10 @@
       @after-enter="cahnge1">
       <s-button slot="reference">click 激活</s-button>
     </s-popover> -->
-    <s-md :bgData="daat1">
-    </s-md>
+    <s-mbw :seconds=12
+      strokeColor="green"
+      :fontSize=60>
+    </s-mbw>
   </div>
 </template>
 

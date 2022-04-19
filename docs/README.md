@@ -7,11 +7,11 @@ actionText: 快速上手 →
 actionLink: /componentDocs/installation
 features:
 - title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+  details: 使用类element语法，让平时使用element用户更快熟悉并迁移组件，同时也缩减了过多复杂的语法，让组件使用起来更加方便快捷。
+- title: Vue语法
+  details: 基于Vue开发，让熟悉Vue框架的用户更加亲切，更快上手。
+- title: 专属定制
+  details: Stubborn-ui拥有定制样式的功能，定制一些小小的特效让你的项目变得丰富有趣起来。
 footer: Copyright © 2022 fxh
 ---
 

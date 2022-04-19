@@ -26,6 +26,7 @@ import Breadcrumb from '../components/lib/breadcrumb';
 import BreadcrumbItem from '../components/lib/breadcrumb-item';
 import Popover from '../components/lib/popover';
 import MadeBackground from '../components/lib/made-backgroud';
+import MadeBackwords from '../components/lib/made-backwords';
 import './assets/icon/iconfont.css';
 
 
@@ -51,6 +52,7 @@ Vue.use(Breadcrumb)
 Vue.use(BreadcrumbItem)
 Vue.use(Popover)
 Vue.use(MadeBackground)
+Vue.use(MadeBackwords)
 
 Vue.config.productionTip = false
 
