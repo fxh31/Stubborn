@@ -5,7 +5,7 @@
 stubborn主要采用的是清新的绿色。
 
 <div class="boxColor" style="background-color: #96c24e;">
-  <div class="title">芽绿</div>
+  <div class="title2">芽绿</div>
   <div class="content">#96c24e</div>
 </div>
 
