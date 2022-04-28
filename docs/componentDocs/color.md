@@ -58,7 +58,7 @@ stubborn主要采用的是清新的绿色。
 ### 字体颜色
 组件字体风格颜色。
 <div class="boxColor" style="background-color: #15231b;">
-  <div class="title">云杉绿</div>
+  <div class="title2">云杉绿</div>
   <div class="content">#15231b</div>
 </div>
 
@@ -70,7 +70,7 @@ stubborn主要采用的是清新的绿色。
   border-radius: 2px;
   position: relative;
 }
-.title {
+.title2 {
   position: absolute;
   color: #fff;
   left: 152px;

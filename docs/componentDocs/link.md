@@ -30,7 +30,7 @@
 ### 下划线
 文字链接下划线。 
 
-<div class='box1'>
+<div class='box1 boxLink'>
   <s-link href="#" class="noline" :underline="false">无下划线</s-link>
   <s-link href="#">有下划线</s-link>
 </div>
@@ -51,7 +51,7 @@
 ### 禁用状态
 文字链接不可用。
 
-<div class="box1">
+<div class="box1 boxLink">
   <s-link href="#" class="noline"  disabled>默认链接</s-link>
   <s-link href="#" class="noline" type="primary" disabled>主要链接</s-link>
   <s-link href="#" class="noline" type="success" disabled>成功链接</s-link>
@@ -77,7 +77,7 @@
 
 ### 废弃状态
 文字链接已过期或取已废用。
-<div class="box1">
+<div class="box1 boxLink">
   <s-link class='exp' expired>默认链接</s-link>
   <s-link class='exp' type="primary" expired>主要链接</s-link>
   <s-link class='exp' type="success" expired>成功链接</s-link>

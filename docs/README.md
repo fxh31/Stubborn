@@ -12,7 +12,8 @@ features:
   details: 基于Vue开发，让熟悉Vue框架的用户更加亲切，更快上手。
 - title: 专属定制
   details: Stubborn-ui拥有定制样式的功能，定制一些小小的特效让你的项目变得丰富有趣起来。
-footer: Copyright © 2022 fxh
+footer: Copyright © 2022fxh
+author: fxh31
 ---
 
 

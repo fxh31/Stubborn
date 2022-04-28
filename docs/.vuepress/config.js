@@ -1,14 +1,13 @@
 module.exports = {
   title: 'stubborn-ui',
   description: '一款满足基本需求和快速开发的极简组件库',
+  theme: 'reco',
   port: '',
-  head: [
-    ['link', { rel: 'icon', href: '/logo.jpg' }]
-  ],
   markdown: {
     // lineNumbers: true
   },
   themeConfig: {
+    author: 'fxh31',
     nav: [
       { text: '首页', link: '/' },
       { text: '组件', link: '/componentDocs/installation' }
@@ -756,7 +755,10 @@ module.exports = {
         }
       ]
     },
-
+    head: [
+      ['link', { rel: 'icon', href: '/favicon.ico' }],  //favicon图标设置
+      ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+    ],
     searchMaxSuggestoins: 10,
     serviceWorker: {
       updatePopup: {
@@ -766,5 +768,6 @@ module.exports = {
     },
     editLinks: true,
     editLinkText: '在 GitHub 上编辑此页 ！'
-  }
+  },
+
 }
